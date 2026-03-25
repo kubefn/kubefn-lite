@@ -1,0 +1,15 @@
+{
+  "id": "kubefn",
+  "name": "KubeFn Lite",
+  "version": "0.1.0",
+  "description": "Multi-runtime function composition without Kubernetes. Deploy Python/JVM/Node functions, compose into pipelines, hot-swap live — all sharing memory.",
+  "configSchema": {
+    "type": "object",
+    "additionalProperties": false,
+    "properties": {
+      "dbPath": {"type": "string", "default": "./kubefn.db"},
+      "functionsDir": {"type": "string", "default": "./kubefn_functions"},
+      "maxExchangeEntries": {"type": "integer", "default": 10000}
+    }
+  }
+}

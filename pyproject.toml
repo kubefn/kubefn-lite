@@ -1,0 +1,19 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "kubefn-lite"
+version = "0.1.0"
+description = "Multi-runtime function composition without Kubernetes"
+license = {text = "MIT"}
+requires-python = ">=3.10"
+authors = [{name = "Yantrikos"}]
+
+[project.urls]
+Homepage = "https://kubefn.com"
+Repository = "https://github.com/yantrikos/kubefn-lite"
+
+[tool.setuptools.packages.find]
+where = ["."]
+include = ["kubefn_engine*"]

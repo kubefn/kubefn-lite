@@ -1,0 +1,6 @@
+__pycache__/
+*.py[cod]
+*.egg-info/
+*.db
+node_modules/
+kubefn_functions/
