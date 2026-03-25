@@ -7,7 +7,7 @@
   "license": "MIT",
   "main": "dist/index.js",
   "files": ["dist", "openclaw.plugin.json", "kubefn_engine", "README.md", "LICENSE"],
-  "repository": {"type": "git", "url": "git+https://github.com/yantrikos/kubefn-lite.git"},
+  "repository": {"type": "git", "url": "git+https://github.com/kubefn/kubefn-lite.git"},
   "homepage": "https://kubefn.com",
   "keywords": ["openclaw", "plugin", "kubefn", "functions", "multi-runtime", "hot-swap", "pipeline"],
   "openclaw": {
